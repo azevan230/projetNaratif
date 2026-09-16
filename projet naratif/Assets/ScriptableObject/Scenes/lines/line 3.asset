@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 568846fa3b4062a4c8d0aff7026707d5, type: 3}
-  m_Name: line
+  m_Name: line 3
   m_EditorClassIdentifier: Assembly-CSharp::Line
-  speaker: 0
-  text: 
+  speaker: 1
+  text: test voici la ligne 3
   emotion: 0
-  color: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0.92653286, g: 1, b: 0, a: 1}
   isOnScreen: 0
