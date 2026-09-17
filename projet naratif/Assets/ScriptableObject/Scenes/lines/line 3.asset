@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: line 3
   m_EditorClassIdentifier: Assembly-CSharp::Line
   speaker: 1
-  text: test voici la ligne 3
+  text: <shake>test voici la ligne 3</shake>
   emotion: 0
   color: {r: 0.92653286, g: 1, b: 0, a: 1}
   isOnScreen: 0
+  effect: 1

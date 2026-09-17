@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: line 1
   m_EditorClassIdentifier: Assembly-CSharp::Line
   speaker: 0
-  text: test voici la ligne 1
+  text: tres longue phrase qui prend plusieurs page donc elle est super longue et il faut skip le texte pour plusieur phrase j'allongie la phrase encore et encore
   emotion: 0
   color: {r: 1, g: 0, b: 0, a: 1}
   isOnScreen: 0
+  effect: 1

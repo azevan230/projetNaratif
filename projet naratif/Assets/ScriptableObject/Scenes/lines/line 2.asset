@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: line 2
   m_EditorClassIdentifier: Assembly-CSharp::Line
   speaker: 0
-  text: test voici la ligne 2
+  text: test voici la <rainb>ligne 2</rainb>
   emotion: 0
   color: {r: 1, g: 0, b: 0, a: 1}
   isOnScreen: 1
+  effect: 0

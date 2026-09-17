@@ -10,4 +10,5 @@ public class Line : ScriptableObject
     public Emotion emotion;
     public Color color;
     public bool isOnScreen;
+    public Effect effect;
 }

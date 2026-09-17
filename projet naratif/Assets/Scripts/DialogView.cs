@@ -1,4 +1,5 @@
 using System;
+using Febucci.TextAnimatorForUnity;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -7,7 +8,8 @@ using UnityEngine.TextCore.Text;
 public class DialogView : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI characterName;
-    [SerializeField] TextMeshProUGUI characterDialogText;
+    public TextMeshProUGUI characterDialogText;
+    public TypewriterComponent typewriterComponent;
     [SerializeField] SpriteRenderer background;
 
 
@@ -15,7 +17,7 @@ public class DialogView : MonoBehaviour
     public void ShowLine(Speaker speaker, string text, Color color)
     {
         characterName.SetText(speaker.ToString());
-        characterDialogText.SetText(text);
+        typewriterComponent.ShowText(text);
         characterDialogText.color = color;   
     }
 

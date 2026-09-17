@@ -17,3 +17,4 @@ MonoBehaviour:
   emotion: 2
   color: {r: 0.973333, g: 1, b: 0, a: 1}
   isOnScreen: 1
+  effect: 2
