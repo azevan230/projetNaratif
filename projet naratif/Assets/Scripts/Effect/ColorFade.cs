@@ -12,13 +12,13 @@ public class ColorFade : MonoBehaviour
     public void FadeToBlack()
     {
         fader.color = Color.black;
-        LMotion.Create(0.0f,1.0f,fadeDuration).WithEase(Ease.OutQuad).BindToColorA(fader);
+        LMotion.Create(0.0f,1.0f,fadeDuration).WithEase(Ease.InQuart).BindToColorA(fader);
     }
 
     public void FadeFromBlack()
     {
         fader.color = Color.black;
-        LMotion.Create(1.0f,0.0f,fadeDuration).WithEase(Ease.OutQuad).BindToColorA(fader);
+        LMotion.Create(1.0f,0.0f,fadeDuration).WithEase(Ease.InQuart).BindToColorA(fader);
     }
 
     public void Flash()
